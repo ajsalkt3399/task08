@@ -246,7 +246,9 @@ section.bottom section.wrapper {
 }
 
 section.bottom section.wrapper div.bottom { 
+	display: flex;
 	position: relative;
+	justify-content: space-around;
 }
 
 section.bottom section.wrapper div.bottom div.left { 
@@ -270,15 +272,40 @@ section.bottom section.wrapper div.bottom div.middle {
 
 section.bottom section.wrapper div.bottom div.middle img { 
 
+	
+
 }
 
 section.bottom section.wrapper div.bottom div.right { 
 
+	padding-top: 50px;
+	
+
+
 }
 
-section.bottom section.wrapper div.bottom div.right h3 { 
+section.bottom section.wrapper div.bottom div.right h3 {
+	color: #FF7A00; 
+
 
 }
+section.bottom section.wrapper div.bottom div.right span { 
+	color: #FF7A00;
+	font-size: 50px;
+	font-weight: bold;
+
+
+}
+
+section.bottom section.wrapper div.bottom div.right small { 
+	color: #000;
+	font-size: 35px;
+	font-weight: bold;
+
+
+}
+
+
 
 section.bottom section.wrapper div.bottom div.right h1 { 
 
@@ -308,4 +335,214 @@ section.bottom section.wrapper div.bottom div.right a.button {
 
 }
 
+
+/* services */
+section#service { 
+
+}
+
+section#service section.wrapper { 
+
+}
+section#service section.wrapper section.content{ 
+	width: 80%;
+	margin: 0 auto;
+}
+
+section#service section.wrapper section.content section.top { 
+
+}
+
+section#service section.wrapper section.content section.top span.service { 
+	color: #FF7A00; 
+	text-align: center;
+	margin-left: 40%;
+
+}
+
+section#service section.wrapper section.content section.top h3 { 
+	color: #000;
+	font-size: 35px;
+	font-weight: bold;
+	display: inline;
+	text-align: center;
+	margin-left: 30%;
+}
+	
+
+section#service section.wrapper section.content section.top h4 { 
+	text-align: center;
+	color: #FF7A00;
+	font-size: 35px;
+	font-weight: bold;
+	display: inline;
+}
+
+section#service section.wrapper section.content section.top p { 
+	
+	color: grey;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	margin-left: %;
+	text-align: center;
+
+}
+
+section#service section.wrapper section.content section.bottom { 
+
+}
+
+section#service section.wrapper section.content section.bottom ul { 
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+section#service section.wrapper section.content section.bottom ul li { 
+	width: 48%;
+	border: 1px solid #dadce0;
+	border-radius: 30px;
+	margin-bottom: 48px;
+	display: flex;
+	justify-content: space-between;
+	padding: 50px;
+}
+section#service section.wrapper section.content section.bottom ul li:hover {
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+	background: #fff;
+}
+section#service section.wrapper section.content section.bottom ul li:nth-child(3),
+section#service section.wrapper section.content section.bottom ul li:last-child{
+	margin-bottom: 0;
+}
+section#service section.wrapper section.content section.bottom ul li div.left { 
+
+}
+
+section#service section.wrapper section.content section.bottom ul li div.left img { 
+	width: 100%;
+	display: block;
+}
+
+section#service section.wrapper section.content section.bottom ul li div.right { 
+	width:80%;
+}
+
+section#service section.wrapper section.content section.bottom ul li div.right h5 { 
+	font-size: 30px;
+	font-weight: 700;
+	color: #000;
+}
+
+section#service section.wrapper section.content section.bottom ul li div.right p { 
+	margin-top: 32px;
+	width: 75%;
+	font-size: 20px;
+	font-weight: 600;
+	color: #a5a7aa;
+}
+
+section#service section.wrapper section.content a.button {
+	 background-color: #FBD573; 
+	border: none;
+	color: #000;;
+	padding: 15px 35px;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	margin: 28px auto 0;
+	width: 15%;
+	font-size: 16px;
+	cursor: pointer;
+	border-radius: 35px;
+	box-shadow: 2px 2px 2px 2px #f3f0f0;
+
+}
+
+/* overview */
+
+section.overview { 
+
+}
+
+section.overview section.wrapper { 
+
+}
+
+section.overview section.wrapper div.overview { 
+
+	display: flex;
+	position: relative;
+	justify-content: space-around;
+}
+
+
+
+section.overview section.wrapper div.overview div.left { 
+
+}
+
+section.overview section.wrapper div.overview div.left h3 { 
+	color: #FF7A00; 
+
+}
+
+section.overview section.wrapper div.overview div.left h4 {
+	
+	color: #FF7A00;
+	font-size: 35px;
+	font-weight: bold;
+
+
+}
+
+section.overview section.wrapper div.overview div.left h5 { 
+	color: #000;
+	font-size: 35px;
+	
+
+}
+section.overview section.wrapper div.overview div.left h5 b {
+	font-weight: 700;
+}
+section.overview section.wrapper div.overview div.left p { 
+
+	color: grey;
+	padding-top: 10px;
+	padding-bottom: 20px;
+
+
+}
+
+section.overview section.wrapper div.overview div.left p br { 
+
+}
+
+section.overview section.wrapper div.overview div.left a.button {
+	
+	background-color: #FBD573; 
+	border: none;
+	color: #000;;
+	padding: 15px 35px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 35px;
+	box-shadow: 2px 2px 2px 2px #f3f0f0;
+
+}
+
+section.overview section.wrapper div.overview div.right { 
+
+}
+
+section.overview section.wrapper div.overview div.right img { 
+
+}
+
+
+/* location */
 
