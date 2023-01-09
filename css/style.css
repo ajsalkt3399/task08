@@ -1,0 +1,311 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+del {
+	text-decoration: line-through;
+}
+body {
+	font-family: "poppinsregular";
+	font-size: 17px;
+	color: #1C2C40;
+	overflow-x: hidden;
+	min-width: 320px;
+	font-weight: 400;
+}
+input,textarea,select{
+	font-family: "poppinsregular";
+	font-weight: 400;
+}
+
+a{
+	color: #1C2C40;
+}
+a:hover,.submit:hover{
+	filter: alpha(opacity = 85);
+	-moz-opacity: 0.85;
+	-khtml-opacity: 0.85;
+	opacity: 0.85;
+}
+.thumb{
+	display: block;
+}
+.thumb img{
+	display: block;
+	width:100%;
+}
+p{
+	line-height:1.6em;
+	font-size: 16px;
+	font-family:"poppinsregular";
+	font-weight: 400;
+}
+.hidden{
+	display:none;
+}
+br.clear {
+	clear: both;
+	line-height: 0;
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+
+}
+@font-face {
+    font-family: 'poppinsbold';
+    src: url('../fonts/poppins-bold-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'poppinsmedium';
+    src: url('../fonts/poppins-medium-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'poppinsregular';
+    src: url('../fonts/poppins-regular-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+::placeholder {
+  color:#FBF8ED;
+}
+
+#home {
+	background: #fff;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100px;
+}
+
+header h1{
+width: 80px;
+
+}
+header h1 a{
+	display: block;
+
+}
+
+header h1 a img{
+	width: 100%;
+	display: block;
+}
+
+header nav{
+
+}
+
+header nav ul{
+
+}
+
+header nav ul li {
+	display: inline-block;
+	margin-right: 35px;
+
+}
+
+header nav ul li a{
+	color: #fff;
+	
+	font-size: 18px;
+
+	color:rgb(0, 0, 0);
+
+
+/* top */
+
+}
+section.top { 
+	padding: 20px 0;
+	
+
+}
+
+section.top section.wrapper { 
+
+}
+
+section.top section.wrapper div.top { 
+	padding-top: 20px;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+section.top section.wrapper div.top div.left { 
+	width: 30%;
+
+
+}
+
+section.top section.wrapper div.top div.left h1 { 
+	font-weight: bold;
+	font-size: 50px;
+
+}
+section.top section.wrapper div.top div.left h2 { 
+
+	color: #FF7A00;
+	font-size: 50px;
+	font-weight: bold;
+
+}
+
+
+section.top section.wrapper div.top div.left p { 
+	color: grey;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	
+
+}
+
+
+section.top section.wrapper div.top div.left a.button { 
+
+	background-color: #FBD573; 
+	border: none;
+	color: #000;;
+	padding: 15px 35px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 35px;
+	box-shadow: 2px 2px 2px 2px #f3f0f0;
+
+	
+
+
+}
+
+section.top section.wrapper div.top div.middle { 
+	position: absolute;
+	right: 450px;
+	width: 30%;
+
+}
+
+section.top section.wrapper div.top div.middle img { 
+
+	
+	display: block;
+	width: 100%;
+
+}
+
+section.top section.wrapper div.top div.right { 
+	width: 40%;
+
+}
+
+section.top section.wrapper div.top div.right img { 
+	display: block;
+	width: 100%;
+
+
+}
+
+
+/* bottom */
+
+section.bottom { 
+
+}
+
+section.bottom section.wrapper { 
+
+}
+
+section.bottom section.wrapper div.bottom { 
+	position: relative;
+}
+
+section.bottom section.wrapper div.bottom div.left { 
+	
+	position: absolute;
+	left: 30px;
+	z-index: -1;
+
+}
+
+section.bottom section.wrapper div.bottom div.left img { 
+
+	width: 50%;
+	height: 50%;
+
+}
+
+section.bottom section.wrapper div.bottom div.middle { 
+	z-index: 2;
+}
+
+section.bottom section.wrapper div.bottom div.middle img { 
+
+}
+
+section.bottom section.wrapper div.bottom div.right { 
+
+}
+
+section.bottom section.wrapper div.bottom div.right h3 { 
+
+}
+
+section.bottom section.wrapper div.bottom div.right h1 { 
+
+}
+
+section.bottom section.wrapper div.bottom div.right p { 
+	color: grey;
+	padding-top: 10px;
+	padding-bottom: 20px;
+
+}
+
+section.bottom section.wrapper div.bottom div.right a.button { 
+
+	background-color: #FBD573; 
+	border: none;
+	color: #000;;
+	padding: 15px 35px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 35px;
+	box-shadow: 2px 2px 2px 2px #f3f0f0;
+
+}
+
+
