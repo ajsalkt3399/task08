@@ -96,7 +96,6 @@ br.clear {
 }
 
 header{
-	padding-top: 110px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -122,11 +121,10 @@ header nav{
 }
 
 header nav ul{
-
+	display: flex;
 }
 
 header nav ul li {
-	display: inline-block;
 	margin-right: 35px;
 
 }
@@ -1059,5 +1057,83 @@ footer .wrapper section.bottom a {
 	}
 }
 @media all and (max-width:1280px) {
+	header nav ul li {
+		margin-right: 20px;
+	}
+	section#service section.wrapper section.content section.top p {
+		padding: 0;
+		font-size: 19px;
+		text-align: center;
+		margin-top: 24px;
+	}
+	section.overview section.wrapper div.overview div.left h4 {
+		font-size: 48px;
+	}
+	section.overview section.wrapper div.overview div.left h5 {
+		font-size: 40px;
+	}
+	#location .wrapper .top div.heading-flex {
+		width: 56%;
+	}
+	#testimonials .wrapper .feedback .feedbacks img.position {
+		bottom: 287px;
+	}
+}
+@media all and (max-width:1080px) {
 	
+	section.top section.wrapper div.top div.middle {
+		right: 265px;
+	}
+	section#service section.wrapper section.content section.top h3 {
+		margin-left: 27%;
+	}
+	section#service section.wrapper section.content a.button {
+		width: 27%;
+	}
+	#location .wrapper .top div.heading-flex {
+		width: 66%;
+	}
+	#testimonials .wrapper .feedback .feedbacks img.position {
+		display: none;
+	}
+	#testimonials .wrapper .feedback {
+		flex-wrap: wrap;
+	}
+	#testimonials .wrapper .feedback .feedbacks{
+		width: 48%;
+		margin-bottom: 32px;
+	}
+	#career .career .upload {
+		width: 90%;
+	}
+	footer .wrapper .content {
+		flex-wrap: wrap;
+	}
+	footer .wrapper .content:first-child {
+	}
+	footer .wrapper section.bottom {
+		width: 59%;
+	}
+}
+@media all and (max-width: 980px) {
+	section.top section.wrapper div.top div.left h1 {
+		font-size: 63px;
+	}
+	section.top section.wrapper div.top div.middle {
+		width: 23%;
+		right: 258px;
+	}
+	section.bottom section.wrapper div.bottom div.middle img {
+		width: 100%;
+		display: block;
+	}
+	section.bottom section.wrapper div.bottom div.right a.button {
+		padding: 20px 40px;
+	}
+	section#service section.wrapper section.content section.top span.service {
+		margin-left: 4%;
+	}
+	section#service section.wrapper section.content section.bottom ul li div.right h5 {
+		font-size: 24px;
+	}
 }
