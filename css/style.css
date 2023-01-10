@@ -1274,7 +1274,61 @@ footer .wrapper section.bottom a {
 	section.bottom section.wrapper div.bottom div.right span {
 		font-size: 30px;
 	}
-	
-
-	
+	section.bottom section.wrapper div.bottom div.right p {
+		font-size: 14px;
+	}
+	section.bottom section.wrapper div.bottom {
+		flex-wrap: wrap-reverse;
+	}
+	section.bottom section.wrapper div.bottom div.right {
+		width: 100%;
+		text-align: center;
+	}
+	section.bottom section.wrapper div.bottom div.right a.button {
+		margin-bottom: 36px;
+	}
+	section#service section.wrapper section.content {
+		width: 100%;
+	}
+	section#service section.wrapper section.content section.top p {
+		font-size: 14px;
+	}
+	#location .wrapper .top div.heading-flex h5 {
+		font-size: 36px;
+	}
+	#location .wrapper .top div.heading-flex h6 {
+		font-size: 36px;
+	}
+	#location .wrapper .top div.heading-flex {
+		width: 76%;
+	}
+	section.overview section.wrapper div.overview div.left a.button {
+		padding: 20px 53px;
+		display: block;
+		width: 36%;
+	}
+	#testimonials .wrapper .feedback .feedbacks {
+		width:90%;
+		text-align: center;
+		margin-bottom: 70px;
+	}
+	#testimonials .wrapper .feedback .feedbacks .flex {
+		width: 65%;
+		margin: 0 auto;
+	}
+	#testimonials .wrapper .feedback .feedbacks img.position {
+		display: block;
+	}
+	#testimonials .wrapper .feedback .feedbacks img.position {
+		bottom: 236px;
+	}
+	#career .career .upload form {
+		width: 59%;
+	}
+	#career .career .upload form input::placeholder {
+		font-size: 12px;
+	}
+	footer .wrapper section.bottom {
+		width: 93%;
+	}
 }
