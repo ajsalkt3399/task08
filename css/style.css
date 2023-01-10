@@ -213,6 +213,7 @@ section.top section.wrapper div.top div.left a.button {
 section.top section.wrapper div.top div.middle { 
 	position: absolute;
 	right: 450px;
+
 	width: 30%;
 
 }
@@ -362,9 +363,10 @@ section#service section.wrapper section.content section.top {
 }
 
 section#service section.wrapper section.content section.top span.service { 
+
 	color: #FF7A00; 
 	text-align: center;
-	margin-left: 40%;
+	margin;
 
 }
 
@@ -374,7 +376,7 @@ section#service section.wrapper section.content section.top h3 {
 	font-weight: bold;
 	display: inline;
 	text-align: center;
-	margin-left: 30%;
+	margin-left: 35%;
 }
 	
 
@@ -392,6 +394,7 @@ section#service section.wrapper section.content section.top p {
 	padding-top: 30px;
 	padding-bottom: 0px;
 	font-size: 20px;
+text-align: center;
 	
 
 }
@@ -578,31 +581,29 @@ section.overview section.wrapper div.overview div.right img {
 
 
 }
+#location .wrapper .top  div.heading-flex {
+    display: flex;
+    margin: 0 auto;
+    width: 36%;
+}
 
 
-
-#location .wrapper .top h5 { 
+#location .wrapper .top  div.heading-flex h5 { 
 	color: #FF7A00;
 	font-size: 50px;
 	font-weight: bold;
-	display: inline;
 	text-align: center;
-	margin-left: 30%;
-
+	margin-right: 8px;
 }
 		
       
 
 
-#location .wrapper .top h6 { 
-	
-	
+#location .wrapper .top div.heading-flex h6 { 
 	color: #000;
 	font-size: 50px;
 	font-weight: bold;
-	display: inline;
 	text-align: center;
-	margin-left: 30%;
 }
 
 #location .wrapper .map { 
@@ -697,7 +698,7 @@ section.overview section.wrapper div.overview div.right img {
 /* testimonial */
 
 #testimonials { 
-
+	padding: 80px 0;
 }
 
 #testimonials .wrapper { 
@@ -706,158 +707,244 @@ section.overview section.wrapper div.overview div.right img {
 
 #testimonials .wrapper h3 { 
 	color: #FF7A00;
-	margin:0 auto; 
 	text-align: center;
-
 }
 
 #testimonials .wrapper h1 { 
 	color: #FF7A00;
 	font-size: 35px;
 	font-weight: bold;
-	display: inline;
 	text-align: center;
-	margin-left: 30%;
-	
-
 }
 
 #testimonials .wrapper .feedback { 
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	padding-top: 100px;
-
 }
 
-#testimonials .wrapper .feedback .feedback1 { 
-
+#testimonials .wrapper .feedback .feedbacks { 
+	padding: 40px 50px 50px 50px ;
+	position: relative;
+}
+#testimonials .wrapper .feedback .feedbacks:hover { 
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+	border-radius: 18px;
 }
 
-#testimonials .wrapper .feedback .feedback1 img { 
-	height: 100px;
-	width: 100px;
+#testimonials .wrapper .feedback .feedbacks img.position { 
+	max-width: 90px;
 	border-radius: 50%;
-
+	display: block;
+	position: absolute;
+	bottom: 255px;
+    left: 25px;
 }
 
-#testimonials .wrapper .feedback .feedback1 p { 
+#testimonials .wrapper .feedback .feedbacks p { 
 	color:rgb(134, 129, 129);
-	padding-top: 30px;
-	padding-bottom: 0px;
+	margin: 28px 0;
 	font-size: 20px;
-	
-	
+}
 
+#testimonials .wrapper .feedback .feedbacks p br { 
 
 }
 
-#testimonials .wrapper .feedback .feedback1 .star1 { 
-	
-	
+#testimonials .wrapper .feedback .feedbacks .flex { 
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
 
-
+#testimonials .wrapper .feedback .feedbacks .flex .left { 
 
 }
 
-#testimonials .wrapper .feedback .feedback1 .star1 h4 { 
+#testimonials .wrapper .feedback .feedbacks .flex .left .name { 
+	display: block;
+	margin-bottom: 18px;
+	font-size: 25px;
+	font-weight: 700;
+}
+
+#testimonials .wrapper .feedback .feedbacks .flex .left .posiiton { 
+	color:rgb(134, 129, 129);
+	font-weight: 600;
+}
+
+#testimonials .wrapper .feedback .feedbacks .flex .star { 
+	display: flex;
+	justify-content: space-between;
+}
+
+#testimonials .wrapper .feedback .feedbacks .flex .star img { 
+	width: 30px
+}
+
+/* career */
+
+
+#career { 
+	border-radius: 50px;
+	background-image: url(/Assets/background\ -\ work\ for\ us.png);
+	padding: 100px 0;
+}
+
+#career .wrapper { 
+
+}
+
+#career .career { 
+
+}
+
+#career .career h5 {
+	
+color: #FF7A00;
+font-size: 35px;
+font-weight: bold;
+display: inline;
+margin-left: 35%;
+}
+#career .career h6 { 
+	color: #000;
+	display: inline;
+	font-size: 35px;
 	font-weight: bold;
-	
+}
+
+#career .career p { 
+	font-weight: bold;
+	color: rgb(31, 30, 30);
+	padding-top: 30px;
+
+	text-align: center;
 
 }
 
-#testimonials .wrapper .feedback .feedback1 .star1 h5 { 
+#career .career .upload { 
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 70%;
+	margin: 28px auto 0;
+}
+
+#career .career .upload form { 
+	background-color: #fff;
+	border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    padding: 28px 22px;
+}	
+#career .career .upload form input::placeholder{
+		margin-bottom: 20px;
+		color:gray;
+		font-size: 20px;
+}
+
+#career .career .upload form input { 
+	width: 70%;
+	height: 30px;
+	font-style: italic;
+}
+
+#career .career .upload a { 
+	display: block;
+}
+
+#career .career .upload a img { 
+	display: block;
+}
+
+#career .career .upload button { 
+	background: blue;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 34px 60px;
+    border-radius: 12px;
+}
+
+
+
+/* footer */
+footer { 
+}
+
+footer .wrapper { 
 
 }
 
-#testimonials .wrapper .feedback .feedback1 .star1 img { 
-	width: 25px;
+footer .wrapper .content { 
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #000;
 
 }
 
-#testimonials .wrapper .feedback .feedback2 { 
+footer .wrapper .content div { 
+	padding: 80px 0;
+}
+
+footer .wrapper .content div h1 { 
+	max-width: 100px;
+}
+
+footer .wrapper .content div h1 a { 
+	display: block;
+}
+
+footer .wrapper .content div h1 a img { 
+	display: block;
+	width: 100%;
+}
+
+footer .wrapper .content div p { 
 
 }
 
-#testimonials .wrapper .feedback .feedback2 img { 
-	height: 100px;
-	width: 100px;
+footer .wrapper .content div p br { 
+
+}
+footer .wrapper .content div ul {}
+footer .wrapper .content div ul li{}
+footer .wrapper .content div ul li h4{}
+footer .wrapper .content div ul li a{}
+footer .wrapper .content div h4{}
+footer .wrapper .content div p{}
+footer .wrapper .content div ul.social{
+	display: flex;
+	justify-content: space-between;
+}
+footer .wrapper .content div ul.social li{}
+footer .wrapper .content div ul.social li div.round_image{
+	display: flex;
+	align-items: center;
+	background:  #FF7A00;;
+	width: 50px;
+	height: 50px;
 	border-radius: 50%;
-
-
-
+	padding: 0 0 0 11px;
 }
-
-#testimonials .wrapper .feedback .feedback2 p { 
-	color:rgb(134, 129, 129);
-	padding-top: 30px;
-	padding-bottom: 0px;
-	font-size: 20px;
-	
-
-
-
+footer .wrapper .content div ul.social li:first-child div.round_image {
+	padding: 0 18px;
 }
-
-#testimonials .wrapper .feedback .feedback2 .star2 { 
-
+footer .wrapper .content div ul.social li div.round_image a{
+	display: block;
 }
-
-#testimonials .wrapper .feedback .feedback2 .star2 h4 {
-	font-weight: bold;
-	
-
+footer .wrapper .content div ul.social li div.round_image img{
+	display: block;
 }
-
-#testimonials .wrapper .feedback .feedback2 .star2 h5 { 
-	
-
-
+footer .wrapper section.bottom {
+	padding: 50px 0;
+	width: 31%;
+	margin: 0 auto;
 }
-
-#testimonials .wrapper .feedback .feedback2 .star2 img { 
-	width: 25px;
-
-}
-
-#testimonials .wrapper .feedback .feedback3 { 
-
-}
-
-#testimonials .wrapper .feedback .feedback3 img {
-	height: 100px;
-	width: 100px;
-	border-radius: 50%;
-
- 
-
-}
-
-#testimonials .wrapper .feedback .feedback3 p { 
-	color:rgb(134, 129, 129);
-	padding-top: 30px;
-	padding-bottom: 0px;
-	font-size: 20px;
-	
-
-
-
-}
-
-#testimonials .wrapper .feedback .feedback3 .star3 { 
-
-}
-
-#testimonials .wrapper .feedback .feedback3 .star3 h4 { 
-	font-weight: bold;
-	
-
-}
-
-#testimonials .wrapper .feedback .feedback3 .star3 h5 { 
-
-}
-
-#testimonials .wrapper .feedback .feedback3 .star3 img { 
-	width: 25px;
-
+footer .wrapper section.bottom a {
+	color: #FF7A00;
+	font-weight: 600;
 }
