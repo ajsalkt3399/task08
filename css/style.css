@@ -92,7 +92,7 @@ br.clear {
 }
 
 #home {
-	background: #FFF;
+	background: #FFFFFF;
 }
 
 header{
@@ -134,14 +134,16 @@ header nav ul li {
 header nav ul li a{
 	color: #fff;
 	
-	font-size: 18px;
+	font-size: 20px;
+	font-weight: bold;
 
 	color:rgb(0, 0, 0);
 
-
-/* top */
-
 }
+header nav ul li:hover a{
+	color: #FF7A00;
+}
+/* top */
 section.top { 
 	padding: 100px 0;
 	
@@ -181,7 +183,7 @@ section.top section.wrapper div.top div.left h2 {
 
 
 section.top section.wrapper div.top div.left p { 
-	color:rgb(134, 129, 129);
+	color:#AAAAAA;
 	padding-top: 30px;
 	padding-bottom: 50px;
 	font-size: 20px;
@@ -195,7 +197,8 @@ section.top section.wrapper div.top div.left a.button {
 	background-color: #FBD573; 
 	border: none;
 	color: #000;;
-	padding: 15px 35px;
+	font-weight: bold;
+	padding: 25px 45px;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
@@ -212,9 +215,9 @@ section.top section.wrapper div.top div.left a.button {
 
 section.top section.wrapper div.top div.middle { 
 	position: absolute;
-	right: 450px;
+	right: 490px;
 
-	width: 30%;
+	width: 27%;
 
 }
 
@@ -366,6 +369,8 @@ section#service section.wrapper section.content section.top span.service {
 	color: #FF7A00; 
 	text-align: center;
 	margin-left: 45%;
+	
+	
 
 }
 
@@ -376,6 +381,7 @@ section#service section.wrapper section.content section.top h3 {
 	display: inline;
 	text-align: center;
 	margin-left: 35%;
+	
 }
 	
 
@@ -586,6 +592,7 @@ section.overview section.wrapper div.overview div.right img {
 	padding-bottom: 10px; 
 	color: #FF7A00; 
 	text-align: center;
+	font-size: 20px;
 
 	
 
@@ -717,7 +724,9 @@ section.overview section.wrapper div.overview div.right img {
 
 #testimonials .wrapper h3 { 
 	color: #FF7A00;
+	
 	text-align: center;
+	margin-bottom: 20px;
 }
 
 #testimonials .wrapper h1 { 
@@ -986,4 +995,69 @@ footer .wrapper section.bottom {
 footer .wrapper section.bottom a {
 	color: #FF7A00;
 	font-weight: 600;
+}
+@media all and (max-width: 1380px) {
+	section.top section.wrapper div.top div.middle {
+    position: absolute;
+    right: 370px;
+    width: 28%;
+	}
+	section.top section.wrapper div.top div.left {
+		width: 50%;
+	}
+	section.bottom section.wrapper div.bottom div.right a.button {
+		margin: 22px 2px;
+	}
+	section#service section.wrapper section.content section.top span.service {
+		display: block;
+	}
+	section#service section.wrapper section.content section.bottom ul li {
+		padding: 50px 23px;
+	}
+	section#service section.wrapper section.content section.bottom ul li div.right {
+		width: 75%;
+	}
+	section#service section.wrapper section.content a.button {
+		padding: 24px 35px;
+		width: 20%;
+	}
+	section.overview section.wrapper div.overview div.left h5 {
+		font-size: 48px;
+	}
+	section.overview section.wrapper div.overview div.left a.button {
+		padding: 20px 40px;
+	}
+	#location .wrapper .top div.heading-flex {
+		display: flex;
+		margin: 0 auto;
+		width: 49%;
+	}
+	#testimonials .wrapper .feedback .feedbacks img.position {
+		bottom: 260px;
+	}
+	#testimonials .wrapper .feedback .feedbacks {
+		padding: 40px 16px 50px;
+	}
+	#testimonials .wrapper .feedback .feedbacks .flex .star img {
+		width: 30px;
+		margin-right: 4px;
+	}
+	#career .career .upload {
+		width: 75%;
+	}
+	#career .career .upload form {
+		width: 75%;
+	}
+	footer .wrapper .content div h4 {
+		margin-bottom: 18px;
+	}
+	footer .wrapper .content div p {
+		line-height: 8.5mm;
+	}
+	footer .wrapper section.bottom {
+		width: 50%;
+	}
+}
+@media all and (max-width:1280px) {
+	
 }
