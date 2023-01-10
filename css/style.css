@@ -1257,7 +1257,6 @@ footer .wrapper section.bottom a {
 	section.top section.wrapper div.top div.left {
 		width: 80%;
 		margin: 0 auto;
-		
 		text-align: center;
 	}
 	section.top section.wrapper div.top div.right {
@@ -1332,4 +1331,86 @@ footer .wrapper section.bottom a {
 	footer .wrapper section.bottom {
 		width: 93%;
 	}
+}
+@media all and (max-width: 480px) {
+	header nav {
+		display: none;
+	}
+	header h1 {
+		margin: 0 auto;
+	}
+	section.top {
+		padding: 48px 0;
+	}
+	section.top section.wrapper div.top div.left p {
+		color: #AAAAAA;
+		padding-top: 30px;
+		padding-bottom: 50px;
+		font-size: 15px;
+	}
+	section.top section.wrapper div.top div.middle {
+		right: 177px;
+		top: 559px;
+	}
+	section.top section.wrapper div.top div.right {
+		width: 60%;
+		margin: 49px 0 0 175px;
+	}
+	section#service section.wrapper section.content section.top h3 {
+		margin-left: 9%;
+	}
+	section#service section.wrapper section.content a.button {
+		width: 40%;
+	}
+	section.overview section.wrapper div.overview div.left h4 {
+		font-size: 32px;
+	}
+	section.overview section.wrapper div.overview div.left h5 {
+		font-size: 32px;
+	}
+	section.overview section.wrapper div.overview div.left p {
+		font-size: 14px;
+		padding: 0;
+	}
+	section.overview section.wrapper div.overview div.left a.button {
+		padding: 20px 53px;
+		width: 49%;
+		margin: 28px auto 54px;
+	}
+	#location .wrapper .top div.heading-flex {
+		width: 90%;
+	}
+	#location .wrapper .top div.heading-flex h5 {
+		font-size: 32px;
+	}
+	#location .wrapper .top div.heading-flex h6 {
+		font-size: 32px;
+	}
+	#testimonials .wrapper .feedback .feedbacks .flex {
+		width: 80%;
+	}
+	#testimonials .wrapper .feedback .feedbacks .flex .left .name {
+		font-size: 18px;
+	}
+	#testimonials .wrapper .feedback .feedbacks .flex .left .name {
+		margin-bottom: 8px;
+	}
+	#career .career h5 {
+		margin-left: 0;
+	}
+	#career .career p {
+		font-size: 14px;
+	}
+	#career .career .upload {
+		flex-wrap: wrap;
+	}
+	#career .career .upload form {
+		width: 100%;
+	}
+	#career .career .upload button {
+		margin: 24px auto 0;
+	}
+}
+@media all and (max-width: 360px) {
+	
 }
