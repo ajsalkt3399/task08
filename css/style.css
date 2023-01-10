@@ -1412,5 +1412,75 @@ footer .wrapper section.bottom a {
 	}
 }
 @media all and (max-width: 360px) {
-	
+	section.top section.wrapper div.top div.left h2 {
+		font-size: 40px;
+	}
+	section.top section.wrapper div.top div.left h1 {
+		font-size: 36px;
+	}section.top section.wrapper div.top div.left p {
+		font-size: 13px;
+	}
+	section.top section.wrapper div.top div.middle {
+		right: 117px;
+		top: 544px;
+	}
+	section.bottom section.wrapper div.bottom div.right p {
+		font-size: 13px;
+	}
+	section#service section.wrapper section.content section.top h3 {
+		margin-left: 0;
+	}
+	section#service section.wrapper section.content section.top h4 {
+		font-size: 27px;
+	}
+	section#service section.wrapper section.content a.button {
+		width: 54%;
+	}
+	section.overview section.wrapper div.overview div.left h4 {
+		font-size: 26px;
+	}
+	section.overview section.wrapper div.overview div.left h5 {
+		font-size: 26px;
+		margin-bottom: 30px;
+	}
+	section.overview section.wrapper div.overview div.left a.button {
+		padding: 20px 35px;
+		width: 51%;
+		margin: 28px auto 50px;
+	}
+	testimonials .wrapper h1 {
+		color: #000;
+		font-size: 26px;
+	}
+	#testimonials .wrapper .feedback .feedbacks img.position {
+		display: none;
+	}
+	#testimonials .wrapper .feedback .feedbacks .flex {
+		width: 100%;
+		flex-wrap: wrap;
+	}
+	#testimonials .wrapper .feedback .feedbacks .flex .left {
+		margin: 0 auto;
+		width: 100%;
+	}
+	#testimonials .wrapper .feedback .feedbacks .flex .star {
+		display: flex;
+		justify-content: space-between;
+		margin: 18px auto 0;
+	}
+	#testimonials .wrapper .feedback .feedbacks {
+		margin-bottom: 18px;
+	}
+	#testimonials .wrapper .feedback .feedbacks p {
+		font-size: 13px;
+	}
+	#career .career h6 {
+		font-size: 24px;
+	}
+	#career .career h5 {
+		font-size: 26px;
+	}
+	#career .career .upload button {
+		padding: 16px 41px;
+	}
 }
