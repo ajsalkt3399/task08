@@ -1109,8 +1109,6 @@ footer .wrapper section.bottom a {
 	footer .wrapper .content {
 		flex-wrap: wrap;
 	}
-	footer .wrapper .content:first-child {
-	}
 	footer .wrapper section.bottom {
 		width: 59%;
 	}
@@ -1123,6 +1121,9 @@ footer .wrapper section.bottom a {
 		width: 23%;
 		right: 258px;
 	}
+	section#service section.wrapper section.content section.bottom ul li div.left {
+		width: 15%;
+	}
 	section.bottom section.wrapper div.bottom div.middle img {
 		width: 100%;
 		display: block;
@@ -1130,10 +1131,147 @@ footer .wrapper section.bottom a {
 	section.bottom section.wrapper div.bottom div.right a.button {
 		padding: 20px 40px;
 	}
+	section#service section.wrapper section.content section.bottom ul li div.right p {
+		font-size: 14px;
+	}
+	section#service section.wrapper section.content section.bottom ul li div.right {
+		width: 73%;
+	}
 	section#service section.wrapper section.content section.top span.service {
 		margin-left: 4%;
 	}
 	section#service section.wrapper section.content section.bottom ul li div.right h5 {
 		font-size: 24px;
+	}
+	section.overview section.wrapper div.overview div.right {
+		display: none;
+	}
+	section.overview section.wrapper div.overview div.left a.button {
+		padding: 30px 40px;
+		display: block;
+		width: 40%;
+		margin: 0 auto 40px;
+	}
+	section.overview section.wrapper div.overview div.left {
+		text-align: center;
+	}
+	#location .wrapper .top div.heading-flex {
+		width: 70%;
+	}
+	#location .wrapper ul {
+		display: none;
+	}
+	#career .career .upload {
+		width: 100%;
+	}
+	footer {
+		padding: 40px 0;
+	}
+	footer .wrapper .content div {
+		padding: 30px 0;
+	}
+	footer .wrapper section.bottom {
+		width: 61%;
+	}
+}
+@media all and (max-width:768px) {
+	header nav ul li a {
+		font-size: 14px;
+	}
+	header nav ul li {
+		margin-right: 10px;
+	}
+	section.top section.wrapper div.top div.middle {
+		right: 207px;
+	}
+	section.top section.wrapper div.top div.left h1 {
+		font-size: 48px;
+	}
+	section.top section.wrapper div.top div.left h2 {
+		font-size: 58px;
+	}
+	section#service section.wrapper section.content section.top h3 {
+    margin-left: 21%;
+	}
+	section#service section.wrapper section.content section.bottom ul li {
+		width: 100%;
+		padding: 80px 23px;
+	}
+	section#service section.wrapper section.content section.bottom ul li:nth-child(3) {
+		margin-bottom: 48px;
+	}
+	section#service section.wrapper section.content a.button {
+		width: 35%;
+	}
+	#location .wrapper .top div.heading-flex {
+		width: 90%;
+	}
+	#testimonials .wrapper .feedback .feedbacks p {
+		font-size: 16px;
+	}
+	#testimonials .wrapper .feedback .feedbacks .flex .left .name {
+		font-size: 20px;
+	}
+	#testimonials .wrapper .feedback .feedbacks .flex .left .posiiton {
+		font-size: 14px;
+	}
+	#career .career h5 {
+		margin-left: 15%;
+	}
+	#career .career .upload form {
+		width: 66%;
+	}
+	#career .career .upload form input {
+		width: 100%;
+		height: 24px;
+	}
+	#career .career .upload button {
+		padding: 31px 60px;
+	}
+	footer .wrapper .content div h1 {
+		max-width: 100px;
+		margin: 0 auto 24px;
+	}
+	footer .wrapper .content {
+		justify-content: center;
+	}
+	footer .wrapper .content div{
+		width: 100%;
+		text-align: center;
+	}
+	footer .wrapper .content div p {
+		margin-bottom: 24px;
+	}
+	footer .wrapper .content div ul.social {
+		width: 50%;
+		margin: 0 auto;
+	}
+	footer .wrapper section.bottom {
+		width: 80%;
+	}
+}
+@media all and (max-width: 640px) {
+	section.top section.wrapper div.top {
+		flex-wrap: wrap;
+	}
+	section.top section.wrapper div.top div.left {
+		width: 80%;
+		margin: 0 auto;
+		text-align: center;
+	}
+	section.top section.wrapper div.top div.right {
+		width: 60%;
+		margin: 49px 0 0 198px;
+	}
+	section.top section.wrapper div.top div.middle {
+		right: 279px;
+		top: 639px;
+		width: 40%;
+	}
+	section.bottom section.wrapper div.bottom div.right h3 {
+		font-size: 16px;
+	}
+	section.bottom section.wrapper div.bottom div.right span {
+		font-size: 30px;
 	}
 }
